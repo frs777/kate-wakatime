@@ -3,7 +3,7 @@
 [![GitHub tag (with filter)](https://img.shields.io/github/v/tag/Tatsh/kate-wakatime)](https://github.com/Tatsh/kate-wakatime/tags)
 [![License](https://img.shields.io/github/license/Tatsh/kate-wakatime)](https://github.com/Tatsh/kate-wakatime/blob/master/LICENSE.txt)
 [![GitHub commits since latest release (by SemVer including pre-releases)](https://img.shields.io/github/commits-since/Tatsh/kate-wakatime/v1.5.1/master)](https://github.com/Tatsh/kate-wakatime/compare/v1.5.1...master)
-[![CodeQL](https://github.com/Tatsh/ifup-systemd-resolved/actions/workflows/codeql.yml/badge.svg)](https://github.com/Tatsh/ifup-systemd-resolved/actions/workflows/codeql.yml)
+[![CodeQL](https://github.com/Tatsh/kate-wakatime/actions/workflows/codeql.yml/badge.svg)](https://github.com/Tatsh/kate-wakatime/actions/workflows/codeql.yml)
 [![QA](https://github.com/Tatsh/kate-wakatime/actions/workflows/qa.yml/badge.svg)](https://github.com/Tatsh/kate-wakatime/actions/workflows/qa.yml)
 [![Tests](https://github.com/Tatsh/kate-wakatime/actions/workflows/tests.yml/badge.svg)](https://github.com/Tatsh/kate-wakatime/actions/workflows/tests.yml)
 [![Coverage Status](https://coveralls.io/repos/github/Tatsh/kate-wakatime/badge.svg?branch=master)](https://coveralls.io/github/Tatsh/kate-wakatime?branch=master)
@@ -73,6 +73,12 @@ Kate text editor, CMake, KDE framework development packages, and Qt development 
 5. Use the checkbox to enable _WakaTime_ and click _OK_:
 
    ![screenshot](https://user-images.githubusercontent.com/724848/53671349-f6a91280-3c4b-11e9-88b9-01f2cdc3cf67.png)
+
+6. Restart Kate to be sure the plugin initialises properly.
+7. Go to _Settings_, _Configure WakaTime..._. In the dialog, fill in your API key. Click _OK_ to save.
+
+To be certain this will work, check the file at `~/.wakatime.cfg`.
+-01f2cdc3cf67.png)
 
 6. Restart Kate to be sure the plugin initialises properly.
 7. Go to _Settings_, _Configure WakaTime..._. In the dialog, fill in your API key. Click _OK_ to save.
