@@ -1,4 +1,5 @@
 find_package(KF6 ${KF_DEP_VERSION} REQUIRED COMPONENTS I18n TextEditor CoreAddons)
+ki18n_install(${CMAKE_CURRENT_SOURCE_DIR}/../po)
 
 set(ktexteditor_wakatime_SRCS wakatimeplugin.cpp)
 ki18n_wrap_ui(ktexteditor_wakatime_SRCS configdialog.ui)

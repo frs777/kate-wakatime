@@ -1,0 +1,30 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: katewakatime\n"
+"POT-Creation-Date: 2026-04-18 12:00+0200\n"
+"PO-Revision-Date: 2026-04-18 12:05+0200\n"
+"Last-Translator: Gemini CLI\n"
+"Language-Team: Polish <pl@li.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Gemini CLI\n"
+
+msgid "WakaTime"
+msgstr "WakaTime"
+
+msgid "Configure WakaTime..."
+msgstr "Konfiguruj WakaTime..."
+
+msgid "Configure WakaTime"
+msgstr "Konfiguracja WakaTime"
+
+msgid "API key:"
+msgstr "Klucz API:"
+
+msgid "Hide filenames"
+msgstr "Ukryj nazwy plików"
+
+msgid "API URL:"
+msgstr "URL API:"

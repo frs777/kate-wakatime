@@ -9,6 +9,15 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Added
+
+- Polish translation (i18n).
+
+### Fixed
+
+- Documentation installation path in `CMakeLists.txt`.
+- Translation installation using `ki18n_install`.
+
 ## [1.5.1] - 2025-06-26
 
 Minor release.

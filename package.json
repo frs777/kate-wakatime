@@ -1,4 +1,8 @@
 {
+  "aiI18n": {
+    "locales": ["en", "pl", "fr", "zh"],
+    "srcRoot": "src"
+  },
   "contributors": ["Andrew Udvare <audvare@gmail.com>"],
   "cspell": {
     "cache": {
@@ -104,6 +108,14 @@
     "check-formatting": "cmake-format --check CMakeLists.txt src/CMakeLists.txt && clang-format -n src/*.cpp src/*.h && prettier -c . && markdownlint-cli2 '**/*.md' '#node_modules'",
     "check-spelling": "cspell --no-progress .",
     "format": "cmake-format -i CMakeLists.txt src/CMakeLists.txt && clang-format -i src/*.cpp src/*.h && yarn prettier -w .",
+    "i18n:cleanup-unused": "node ./scripts/cleanup-i18n-unused.js",
+    "i18n:extract": "node ./scripts/extract-i18n.js",
+    "i18n:fix-untranslated": "node ./scripts/fix-untranslated.js",
+    "i18n:restore-invalid": "node ./scripts/restore-i18n-invalid.js",
+    "i18n:rewrite": "node ./scripts/replace-i18n.js",
+    "i18n:rewrite-blade": "node ./scripts/rewrite-i18n-blade.js",
+    "i18n:sync": "node ./scripts/sync-i18n.js",
+    "postbuild": "npm run i18n:sync",
     "qa": "yarn check-spelling && yarn check-formatting"
   },
   "version": "1.5.1"
